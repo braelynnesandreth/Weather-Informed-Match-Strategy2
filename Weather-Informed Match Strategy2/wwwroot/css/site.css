@@ -1,0 +1,59 @@
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.5);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color:lightblue;
+}
+
+header {
+    background-image: url('path/to/header-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+header {
+    background-image: url('path/to/header-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+
+img {
+   width:100%;
+   margin:0%;
+}
+
+table,th,td,tr{ font-size:16px;
+                border:solid;
+                border-color:black;
+
+}
+.text-red{
+    color: red;
+
+}
+.border-rounded{
+    border-radius: 10px;
+}
+.box-shadow{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}

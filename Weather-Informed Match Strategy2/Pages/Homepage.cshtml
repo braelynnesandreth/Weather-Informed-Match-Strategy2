@@ -1,0 +1,55 @@
+﻿@page
+@model Weather_Informed_Match_Strategy2.Pages.HomepageModel
+@{
+
+    <head>
+    <div class="container mt-4">
+    
+   
+        
+            <h1> Welcome to Weather-Informed Match Strategy </h1>
+            <h2> About the App </h2>
+            <button id="toggleButton">Toggle Visibility</button>
+            <p id="toggleParagraph" style="display: none;">This paragraph is hidden by default. Click the button to toggle visibility.</p>
+        </div>
+ 
+        <script>
+            const toggleButton = document.getElementById('toggleButton');
+            const toggleParagraph = document.getElementById('toggleParagraph');
+
+            toggleButton.addEventListener('click', function () {
+               
+                if (toggleParagraph.style.display === 'none') {
+                    toggleParagraph.style.display = 'block';
+                } else {
+                    toggleParagraph.style.display = 'none';
+                }
+            });
+
+        </script>
+
+       
+    </head>
+    <body>
+        <nav>
+            <a href="/TodaysForecast">Go to Todays forecast</a>
+
+
+        </nav>
+     
+
+        <h2> About Us</h2>
+
+        <p> The Weather-Informed Match Strategy app provides real-time meteorological updates tailored for soccer matches, empowering coaches and teams to optimize their strategies based on currrent weather conditions. By integrating personalized tips for players and efficient scheduling for organizers, the app ensures a seamless and comfortable experience for both participants and spectators, enhancing the overall success of soccer events. </p>
+        <section>
+        
+       
+        <img src="/Images/soccer1.jpg" />
+        </section>
+
+
+
+    </body>
+
+
+}
